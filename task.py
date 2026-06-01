@@ -3,5 +3,6 @@ max = 0
 for score in student_scores:
     if score > max:
         max_score = score
+        max=score
 
-print(max)
+print(max_score)
